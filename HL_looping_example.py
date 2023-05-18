@@ -17,7 +17,7 @@ def int_check(question, low=None, high=None, exit_code=None):
         
         try:
             response =  int(response)
-        
+          
             # check that integer is valid (ie: not too low / too hig etc)
             if situation == "any integer":
                 return response
